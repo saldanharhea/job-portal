@@ -1,0 +1,214 @@
+       body{
+           font-family: 'Andika';
+           font-size: 16px;
+           background-image: url('../images/bg2.jpg');
+            background-size: cover;
+       }
+
+       
+       
+       .card{
+           background-color: white;
+           box-shadow: 1px 1px 1px 0.5px #888888;
+           padding-bottom: 40px;
+       }
+       
+       
+       .navbar-default .navbar-nav .cls {
+    color: #D9B310;
+           font-size: 16px;
+}
+       
+       .navbar-default {
+    background-color: #0b3c5d;
+    border-color: #D9B310;
+           
+}
+        .navbar-default .navbar-nav .cls:hover {
+    color: white;
+           font-size: 16px;
+}
+
+
+       .navbar-default .navbar-nav .cls:active {
+    color: white;
+           font-size: 16px;
+}       
+       .title-bar{
+           margin-top: 50px;
+           height: 10vh;
+           position: relative;
+           background-color: rgba(218, 181, 16, 0.28);
+           
+       }
+
+       .title{
+           font-family: 'Cabin Sketch';
+           font-size: 34px;
+           width: 100%;
+          position: absolute;
+            top: 20%;
+           
+           display: inline-block;
+       }
+       
+       .budget{
+           font-family: 'Cabin Sketch';
+           font-size: 24px;
+            padding-left: 40px;
+           display: inline-block;
+       }
+       
+       @media only screen and (max-width: 723px) {
+    .title-bar {
+        height: 15vh;
+    }
+}
+       
+        @media only screen and (max-width: 391px) {
+    .title-bar {
+        height: 30vh;
+    }
+}
+       
+       
+       .descriptor{
+           padding-top: 30px;
+       }
+       .descriptor2{
+           padding-top: 10px;
+           padding-bottom: 20px;
+       }
+       
+       .skill-title{
+           font-family: 'Cabin Sketch';
+           color: darkblue;
+           display: inline-block;
+           padding-bottom: 20px;
+       }
+       
+       .about-title{
+           font-family: 'Cabin Sketch';
+           color: darkblue;
+           
+           padding-bottom: 20px;
+       }
+       
+       .about{
+           margin-top: -20px;
+           
+       }
+       
+       .str{
+           color: #d9b310;
+       }
+       
+       .fst{
+           margin-left: 40px;
+           margin-right: 10px;
+       }
+       
+       .icn{
+           padding-right:10px;
+       }
+       
+       .project{
+           margin-top: 20px;
+       }
+       
+       .bid{
+           font-family: 'Cabin Sketch';
+           color: darkblue;
+       }
+       
+       .bid-btn{
+           padding-left: 20px;
+           padding-right: 20px;
+       } 
+       
+       
+       .btn-top{
+           margin-bottom: 30px;
+       }
+       
+       .card-job{
+           padding-top: 10px;
+           padding-left: 20px;
+           padding-right: 20px;
+       }
+       
+       .similar-job li {
+  list-style-type: none;
+  position: relative;
+
+  padding-top: 10px;
+}
+
+.similar-job li:before {
+  content: "\25BA \0020";
+  font-size: 10px;
+    color: #d9b310; 
+  position: absolute;
+  top: 15px;
+  left: -30px;
+}
+       
+       .space{
+           margin-top: 40px;
+           margin-bottom: 40px;
+           
+       }
+       
+       
+       
+       .content2{
+           width: 30%;
+           height: 60px;
+           background-color: beige;
+         
+           float: right;
+           position: relative;
+           bottom: 200px;
+       }
+           @media only screen and (max-width: 570px) {
+    .content2 {
+        height: 100px;
+    }
+}
+       .content{
+           width: 50%;
+           
+           position: relative;
+           bottom:95px;
+           left: 130px;
+       }
+       
+       
+       .pad{
+           border-bottom: 1px solid lightgrey;
+           
+       }
+       
+       .pads{
+           margin-top: 40px;
+       }
+       
+       .clra{
+           background-color:beige;
+       }
+
+
+.btn-job{
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #0b3c5d;
+    border:2px solid #d9b310;
+    //font-family: 'Cabin Sketch';
+    font-size: 30px;
+}
+
+
+.btn-job:hover{
+    background-color: #d9b310;
+}

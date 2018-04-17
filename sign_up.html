@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Job-ortal/sign-up</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    
+      <!-- favicon -->
+  <link rel="shortcut icon" type="image/png" href="myAssets/images/logo.png"/>
+    
+    <link href='https://fonts.googleapis.com/css?family=Cabin Sketch' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Andika' rel='stylesheet'>
+
+    <link rel="stylesheet" type="text/css" href="myAssets/all_css/sign-up.css"> 
+     
+</head>
+<body>
+  
+<div class="container">
+    
+    
+    
+    
+    <!--------------- NAVBAR ------------------------> 
+    <div class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="400">
+          <div class="container nav-clr ">
+              
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                   </button>
+                    <a class="navbar-brand" href="#"></a>
+                </div>
+              
+                <div class="navbar-collapse collapse" id="myNavbar">
+                  <ul class="nav navbar-nav ">
+                    <li><a href="dashboard.html" class="cls">Hire Freelancer</a></li>
+                    <li><a href="pagination.html" class="cls">Find Work</a></li>
+                    <li><a href="#" class="cls">How It Works</a></li>
+                  </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="javascript:void(0)" data-toggle="modal" data-target="#signup" class="cls"><b>Signup</b></a></li>
+                    <li><a href="javascript:void(0)" data-toggle="modal" data-target="#login" class="cls">Login</a></li>
+                </ul>
+                </div> 
+              
+          </div>
+    </div>
+     <!--------------- NAVBAR END------------------------>  
+    
+    
+    
+    
+    
+    
+    
+   
+
+    
+     <!--------------- SIGN UP MODAL ------------------------> 
+    
+    
+     <div class="modal fade" id="signup" role="dialog">
+        <div class="modal-dialog">
+              <div class="modal-content">
+
+                    <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h3 class="text-primary modl">Signup for free today</h3>
+                    </div>
+
+                    <div class="modal-body modl-body">
+                        <div class="row">	
+                            <form  method="post" action="" role="form" class="form-horizontal">	
+
+                            <div class="form-group">
+                                <label class="control-label col-md-3">Email adress :</label>
+                                <div class="col-md-8">
+                                    <input type="email " class="form-control" name="email" value="" placeholder="Please Enter Your Email" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-md-3">Username :</label>
+                                <div class="col-md-8">
+                                    <input type="text " class="form-control" name="name" value="" placeholder="Please Enter Your Name" required>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label class="control-label col-md-3">Password :</label>
+                                <div class="col-md-8">
+                                    <input type="password " class="form-control" name="password" value="" placeholder="Please Enter Your Password" required>
+                                </div>
+                            </div>	
+
+
+
+
+                            <div class="form-group">
+
+                            </div>	
+                            <div class="form-group">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-9">
+
+                                    <button onclick="window.location='sign_up.html'" type="button" class="btn btn-primary btn-md">
+                                    Signup to Hire
+                                    </button>   
+
+                                    <button type="button" onclick="window.location='dashboard.html'" class="btn btn-primary btn-md">
+                                    Signup to Work
+                                    </button>  
+
+
+                                    <input type="reset" name="Reset" value="Reset" class="btn btn-default"> 
+                                </div>	
+                            </div>	
+                            </form>					
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+              </div>      
+        </div>
+</div>
+
+    <!--------------- END OF SIGN UP MODAL ------------------------> 
+    
+    
+    
+    <!--------------- LOGIN MODAL ------------------------> 
+    
+       <div class="modal fade" id="login" role="dialog">
+            <div class="modal-dialog">
+                  <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h3 class="text-primary">Login Form</h3>
+                        </div>
+                    <div class="modal-body">
+                        <div class="row">	
+                                <form  method="post" action="" role="form" class="form-horizontal">		
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3">Email address *:</label>
+                                        <div class="col-md-8">
+                                            <input type="email" class="form-control" name="email" value="" placeholder="Please Enter Your Email" required>
+                                        </div>
+                                    </div>	
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3">Password *:</label>
+                                        <div class="col-md-8">
+                                            <input type="password" class="form-control" name="password" value="" placeholder="Please Enter Your password" required>
+                                        </div>
+                                    </div>	
+                                    <div class="form-group">
+                                        <div class="col-md-3"></div>
+                                        <div class="col-md-9">
+                                            <button onclick="window.location='pagination.html'" type="button" class="btn btn-primary btn-md">Login Now</button>  
+
+
+                                            <input type="reset" name="Reset" value="Reset" class="btn btn-default"> 
+                                        </div>	
+                                    </div>	
+                                </form>					
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>      
+            </div>
+  </div>
+    
+    <!--------------- END OF LOGIN MODAL ------------------------> 
+    
+    
+  <!--- LOGO ICONS --------------------------------------------->
+    
+  <div class="row top ">
+      
+    <div class="col-sm-1 col-xs-3 col-lg-1 col-md-1 ">
+        <img src="myAssets/images/home-slider/logo-main.png" class="logo" alt="logo">
+    </div>
+    
+  </div>  
+    <!--- END OF LOGO ICONS ---------------------------------------------> 
+    
+    
+    
+    <h1 class="title">Welcome Alan - lets help you find a job .</h1>
+    
+    
+    
+    <!--- PROGRESS BAR --------------------------------------------->
+    <div class="row pbar">
+        <div class="col-sm-12 ">
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:30%;">30%</div>
+            </div>
+        </div>
+    
+    </div>  
+    
+    <!--- END OF PROGRESS BAR --------------------------------------------->
+    
+    
+    
+    
+    
+    
+    <section>
+    <h3 class="pad-down">Let's get started by selecting your skills to help us recommend jobs for you:</h3>    
+
+        
+    <!--- LEFT BAR --------------------------------------------->
+    <div class="row grids pbar">
+        <div class="col-sm-12 col-xs-12 col-md-5 col-lg-3 hgt ts" >
+           <div class="">
+               <input class="form-control" id="myInput" type="text" placeholder="Search..">
+               <hr>
+               <ul  id="myList" class="lists" >
+                    <li >Websites, IT & Software</li>
+                    <li >Mobile Phones Computing</li>
+                    <li >Writing & Content</li>
+                    <li >Design & media </li>
+                    <li >Data Entry & Admin</li>
+                    <li >Engineering & Science</li>
+                    <li>Product Devolp</li>
+                    <li >Sales & Marketing</li>
+                    <li> Translation & Languages</li>
+                    <li> Local Jobs & Services</li>
+                    <li> Others</li>
+              </ul> 
+            </div>
+        </div>
+       <!--- END OF LEFT BAR --------------------------------------------->
+       
+
+        <!--- RIGHT BAR --------------------------------------------->
+        <div class="col-sm-12 col-xs-12 col-md-7 col-lg-9 hgt ts lists" >
+            <div class="pad-up">Websites, IT & Software Skills</div>
+            <hr>
+            
+            <form>
+                <div class="form-group">
+                  <label for="comment">Write a short description about yourself:</label>
+                  <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div>
+
+
+                <div class="form-group">
+                  <label for="comment">Mention below a few of your skill sets:</label>
+                  <textarea class="form-control" rows="8" id="comment"></textarea>
+                </div>            
+            </form>
+       </div>
+   
+       <!--- END OF LEFT BAR --------------------------------------------->
+       
+       
+
+   </div> 
+    
+    </section>
+   
+  
+    
+    <button onclick="window.location='profile.html'" type="button" class="btn-default btn-lg pad clsb" >Next Step</button>
+    
+    <div class="row top ">
+      
+    <div class="col-sm-12 col-xs-12 col-lg-12 col-md-12 bottom2">
+        
+    </div>
+    
+  </div>  
+</div>
+
+</body>
+</html>

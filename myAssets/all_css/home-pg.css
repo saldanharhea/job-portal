@@ -1,0 +1,463 @@
+       
+
+
+/* CSS used here will be applied after bootstrap.css */
+html,body {
+  height:100%;
+  font-family: 'Andika'; 
+  
+}
+
+
+.img-bg{
+    background-image: url('../images/bg4.jpg');
+    background-size: cover;
+}
+
+/****************************** SECTION 2 [Informative Section]***************************/
+ .sec{
+    height: 82vh;
+    font-family: 'Cabin Sketch';
+    color: #1a2d4c;
+    padding-top:3vh;
+     padding-bottom: 3vh;
+     
+     }
+
+.sec2{
+    height:72vh;
+    
+}
+.custom-bullet li {
+    display: block;
+        }
+
+.custom-bullet li:before{
+    
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e084";
+    font-family: 'Glyphicons Halflings';
+    
+    float: left;
+    margin-top: 4px;
+    margin-left: -30px;
+    color: #57b2e0;
+}
+   
+.contents{
+    font-family: 'Andika';
+    font-size: 18px;
+}
+
+.descriptor{
+        margin:20px 0;
+}
+
+.detail{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+ .giffer{
+        margin-top: 10vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image:url('../images/gif1.gif');
+            
+        }
+
+
+/*****************************************************************************************/
+
+
+        
+
+
+/****************************** SECTION 3 [Counter]***************************/
+
+.heading{
+    font-family: 'Andika';
+    display: inline-block;
+    font-size: 3vw;
+    margin-left: 10px;
+    padding-right: 40px;
+    text-transform: capitalize;
+        }
+.stats{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+       }
+        
+.alignment{
+        position: relative;
+        height: 8vh;
+       
+      
+          }
+        
+
+
+.counter-value{
+        font-family: 'Andika';
+        font-size: 3.5vw;
+}
+/*****************************************************************************************/
+
+
+
+/****************************** SECTION 4 [Categories]***************************/
+
+.categories{
+        font-family: 'Cabin Sketch';
+        padding-top: 2vh;
+        height: 50vh;
+        background-color: 
+        }
+
+.skill-list{
+        font-family: 'Andika';
+        padding-top: 2vh;
+        font-size: 18px;
+}
+
+.skill-list li{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 992px){
+    
+    .categories{
+         height: 75vh;
+    }
+}
+
+
+@media screen and (max-width: 430px){
+    
+    .categories{
+         height: 88vh;
+    }
+}
+/*****************************************************************************************/
+
+
+
+
+/****************************** SIGNUP POPUP MODAL ***************************/
+.modl{
+    font-family: 'Cabin Sketch';
+}
+
+.modl-body{
+    font-family: 'Andika';
+}
+/*****************************************************************************************/
+
+
+
+
+
+
+
+
+
+/****************************** NAV BAR ***************************/    
+.affix {
+  -webkit-transition:padding 0.2s ease-out;
+  -moz-transition:padding 0.2s ease-out;  
+  -o-transition:padding 0.2s ease-out;         
+  transition:padding 0.2s ease-out;
+    
+}
+
+.affix a{
+    color: #D9B310;
+}
+
+
+.affix-top {
+  /* navbar style at top */
+  background:transparent;
+  border-color:transparent;
+  
+  padding: 15px;
+  -webkit-transition:all 0.5s ease;
+  -moz-transition:all 0.5s ease; 
+  -o-transition:all 0.5s ease;         
+  transition:all 0.5s ease;  
+}
+
+.affix-top .nav>li>a {
+   font-size: 20px;
+     font-family: 'Andika';
+  
+  color:ghostwhite;
+
+/* text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);*/
+    
+text-shadow: 0px 2px 0px #b78c33;,
+                 0px 14px 10px rgba(0,0,0,0.15),
+                 0px 12px 2px rgba(0,0,0,0.1),
+                 0px 10px 30px rgba(0,0,0,0.1);
+
+}
+
+.affix-top .navbar-collapse {
+   border-color:transparent;
+   box-shadow:initial;
+}
+.affix .nav>li>a {
+    color: #0b3c5d;
+    font-size:18px;
+    
+}
+       
+.affix .navbar-default {
+    background-color: #0b3c5d;
+    border-color: #D9B310;
+           
+}
+/*****************************************************************************************/
+
+
+
+
+
+/****************************** MID SECTION OF HOVER ***************************/ 
+
+section {
+  height:calc(90% - 50px);
+  height: 90vh;
+}
+        
+         
+.navbar-brand{
+    color: mediumvioletred;
+}        
+        
+    
+        
+ .first {
+  
+  
+  opacity: 1;
+  padding-top:140px;
+  height:100vh;
+  min-height:400px;
+  background-size:cover;
+  background-image:url('../images/home-slider/9.jpg');
+}       
+.blur{
+    opacity:0;
+} 
+
+
+
+.first:hover .blur {
+    
+    
+    display: table;
+
+ background-color:rgb(192,192,192);opacity:0.9;
+    font-size:4vw;
+    font-family: 'Cabin Sketch';
+ height:70vh;
+  
+}
+
+
+
+.verti{
+    display: table-cell;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 768px){
+    
+    .first:hover .blur {
+    
+    
+   
+    font-size:6vw;
+    
+  
+}
+}
+
+/*****************************************************************************************/
+
+
+
+
+
+
+/*************************************SECTION 5 [FOOTER]****************************************************/
+.space{
+    height: 20px;
+}
+.social{
+    font-size:40px;
+}
+
+
+footer.nb-footer {
+        width: 100%;
+        background: #0b3c5d;
+        border-top: 4px solid #d9b310;
+}
+
+
+footer.nb-footer .about {
+        margin: 0 auto;
+        margin-top: 40px;
+        max-width: 1170px;
+        text-align: center; 
+}
+
+
+footer.nb-footer .about p {
+        font-size: 25px;
+        font-family: 'Cabin Sketch';
+        color: #999;
+        margin-top: 30px; 
+        margin-bottom: -20px;
+}
+        
+        
+footer.nb-footer .about .social-media {
+        margin-top: 15px; 
+        padding-top: 30px;}
+        
+        
+footer.nb-footer .about .social-media ul li a {
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        border-radius: 50%;
+        font-size: 24px;
+            padding-top: 10px;
+        color: #d9b310;
+
+        border: 1px solid rgba(255, 255, 255, 0.3); }
+
+        
+footer.nb-footer .about .social-media ul li a:hover {
+        background: #d9b310;
+        color: #fff;
+        border-color: #d9b310; }
+
+footer.nb-footer .footer-info-single {
+        margin-top: 30px; }
+
+footer.nb-footer .footer-info-single .title {
+        color: #aaa;
+        text-transform: uppercase;
+        font-size: 16px;
+        border-left: 4px solid #b78c33;
+        padding-left: 5px; }
+
+footer.nb-footer .footer-info-single ul li a {
+        display: block;
+        color: #aaa;
+        padding: 2px 0; }
+
+footer.nb-footer .footer-info-single ul li a:hover {
+        color: #d9b310; }
+
+footer.nb-footer .footer-info-single p {
+        font-size: 13px;
+        line-height: 20px;
+        color: #aaa; }
+
+
+/*****************************************************************************************/
+
+
+
+
+
+/* Carousel */
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+    /* Control buttons  */
+    /* Previous button  */
+    /* Next button  */
+    /* Changes the position of the indicators */
+    /* Changes the color of the indicators */
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control.left {
+    left: -60px;
+}
+#quote-carousel .carousel-control.right {
+    right: -60px;
+}
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    
+    cursor: pointer;
+    border: 4px solid #CCC;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+    border-color: #f33;
+    opacity: 1;
+    overflow: hidden;
+}
+.carousel-inner {
+    min-height: 300px;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+.rev{
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+@media only screen and (max-width: 977px) {
+.change-size {
+
+    height: 60%;
+}
+}
+
+
+@media only screen and (max-width: 505px) {
+.change-size {
+
+    height: 80%;
+}
+}

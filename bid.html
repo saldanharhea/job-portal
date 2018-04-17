@@ -1,0 +1,368 @@
+<html>
+<head>
+
+
+
+  <title>Job-ortal/bid</title>
+
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-------- DEFAULTS ------->
+    
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+    
+  
+    
+   <!-- favicon -->
+  <link rel="shortcut icon" type="image/png" href="myAssets/images/logo.png"/>
+  
+  <link href='https://fonts.googleapis.com/css?family=Cabin Sketch' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Andika' rel='stylesheet'>
+    
+   <link href='myAssets/all_css/bid.css' rel='stylesheet'>
+   
+</head>  
+
+    
+    
+<body>
+    
+    
+  <!------- TITLE BAR ---------------------------------->  
+<div class="title-bar">
+    <div class="container text-center title">Kindle Publishing Expert
+    <div class="budget">BUDGET &#8377;800 - 2000 INR</div>
+    </div>
+</div>
+<!------- END OF TITLE BAR ---------------------------------->  
+    
+    
+    
+ <div class="container">
+  <br><br> 
+
+         <!--------------- NAVBAR ------------------------> 
+    <div class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="400">
+          <div class="container nav-clr ">
+              
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                   </button>
+                    <a class="navbar-brand" href="#"></a>
+                </div>
+              
+                <div class="navbar-collapse collapse" id="myNavbar">
+                  <ul class="nav navbar-nav ">
+                    <li><a href="dashboard.html" class="cls">Hire Freelancer</a></li>
+                    <li><a href="pagination.html" class="cls">Find Work</a></li>
+                    <li><a href="#" class="cls">How It Works</a></li>
+                  </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="javascript:void(0)" data-toggle="modal" data-target="#signup" class="cls"><b>Signup</b></a></li>
+                    <li><a href="javascript:void(0)" data-toggle="modal" data-target="#login" class="cls">Login</a></li>
+                </ul>
+                </div> 
+              
+          </div>
+        </div>
+     
+     
+    
+    
+    
+    
+    
+    
+   
+
+    
+     <!--------------- SIGN UP MODAL ------------------------> 
+    
+    
+     <div class="modal fade" id="signup" role="dialog">
+        <div class="modal-dialog">
+              <div class="modal-content">
+
+                    <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h3 class="text-primary modl">Signup for free today</h3>
+                    </div>
+
+                    <div class="modal-body modl-body">
+                        <div class="row">	
+                            <form  method="post" action="" role="form" class="form-horizontal">	
+
+                            <div class="form-group">
+                                <label class="control-label col-md-3">Email adress :</label>
+                                <div class="col-md-8">
+                                    <input type="email " class="form-control" name="email" value="" placeholder="Please Enter Your Email" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-md-3">Username :</label>
+                                <div class="col-md-8">
+                                    <input type="text " class="form-control" name="name" value="" placeholder="Please Enter Your Name" required>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label class="control-label col-md-3">Password :</label>
+                                <div class="col-md-8">
+                                    <input type="password " class="form-control" name="password" value="" placeholder="Please Enter Your Password" required>
+                                </div>
+                            </div>	
+
+
+
+
+                            <div class="form-group">
+
+                            </div>	
+                            <div class="form-group">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-9">
+
+                                    <button onclick="window.location='sign_up.html'" type="button" class="btn btn-primary btn-md">
+                                    Signup to Hire
+                                    </button>   
+
+                                    <button type="button" onclick="window.location='dashboard.html'" class="btn btn-primary btn-md">
+                                    Signup to Work
+                                    </button>  
+
+
+                                    <input type="reset" name="Reset" value="Reset" class="btn btn-default"> 
+                                </div>	
+                            </div>	
+                            </form>					
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+              </div>      
+        </div>
+</div>
+
+    <!--------------- END OF SIGN UP MODAL ------------------------> 
+    
+    
+    
+    <!--------------- LOGIN MODAL ------------------------> 
+    
+       <div class="modal fade" id="login" role="dialog">
+            <div class="modal-dialog">
+                  <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h3 class="text-primary">Login Form</h3>
+                        </div>
+                    <div class="modal-body">
+                        <div class="row">	
+                                <form  method="post" action="" role="form" class="form-horizontal">		
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3">Email address *:</label>
+                                        <div class="col-md-8">
+                                            <input type="email" class="form-control" name="email" value="" placeholder="Please Enter Your Email" required>
+                                        </div>
+                                    </div>	
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3">Password *:</label>
+                                        <div class="col-md-8">
+                                            <input type="password" class="form-control" name="password" value="" placeholder="Please Enter Your password" required>
+                                        </div>
+                                    </div>	
+                                    <div class="form-group">
+                                        <div class="col-md-3"></div>
+                                        <div class="col-md-9">
+                                            <button onclick="window.location='pagination.html'" type="button" class="btn btn-primary btn-md">Login Now</button>  
+
+
+                                            <input type="reset" name="Reset" value="Reset" class="btn btn-default"> 
+                                        </div>	
+                                    </div>	
+                                </form>					
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>      
+            </div>
+  </div>
+    
+    <!--------------- END OF LOGIN MODAL ------------------------> 
+    
+        
+     
+
+     
+     
+   <!-------------------CARD ONE -------------------------------->  
+ <div class="row pad-top">
+    <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 card">
+        <div>
+            <p class="descriptor">I have a small info report that I'd like to publish with Amazon Kindle and will need help with formatting, as well as table of contents, and the cover page.
+             </p>
+            <p class="descriptor2">Will need someone very experienced with Kindle to assist.</p>
+            <div class="skills"><h4 class="skill-title">Skills : </h4><span> Adobe InDesign, Amazon Kindle, eBooks</span></div>
+            <div class="skills"><h4 class="skill-title">See More : </h4><span>  amazon kindle direct publishing, kindle freelance expert uk, small info app.</span></div>
+        
+            <div class="skills"><h4 class="about-title">About the Employer : </h4>
+                <div class="about"><span class="glyphicon glyphicon-star str"></span><span class="glyphicon glyphicon-star str"></span><span class="glyphicon glyphicon-star str"></span><span class="glyphicon glyphicon-star-empty str"></span><span class="glyphicon glyphicon-star-empty str"></span>
+
+                <span>[25 Reviews]</span>
+                <a href="#" class="fst"><span class="glyphicon glyphicon-envelope" data-toggle="tooltip" data-original-title="Not email verified" ></span></a>
+
+                <a href="#" class="icn "><span class="glyphicon glyphicon-earphone" data-toggle="tooltip" data-original-title="Phone verified"></span></a>
+                <a href="#" class="icn"><span class="glyphicon glyphicon-edit" data-toggle="tooltip" data-original-title="Supervision On"></span></a>
+                <a href="#" class="icn"><span class="glyphicon glyphicon-download" data-toggle="tooltip" data-original-title="Download of specs allowed"></span></a>
+
+                </div>    
+        
+            </div>
+            <div class="project"><h4 class="skill-title">Project id : </h4><span> #16708049</span></div>
+            <hr>
+            
+            <h3 class="bid">Bid for this Job now !</h3>
+            
+            
+            
+
+      <div class="form-row">
+        <div class="col-md-4  col-sm-4 mb-3">
+          <label for="validationCustom01">Your bid for this job </label>
+            <div class="input-group">
+
+        <span class="input-group-addon">&#8377;</span>
+          <input type="text" class="form-control" id="validationCustom01" placeholder="Your Bid" >
+            </div>
+        </div>
+        <div class="col-md-4  col-sm-4 mb-3">
+          <label for="validationCustom02">Your email address</label>
+          <input type="text" class="form-control" id="validationCustom02" placeholder="Email address" >
+
+        </div>
+
+          <br>
+            <div class="col-md-4 col-sm-4 mb-3">
+          <button type="button" class="btn btn-primary btn-lg"><span class="bid-btn">Bid Now !</span></button>
+        </div>
+
+
+      </div>
+     </div>
+        
+ </div>
+     <!-------------------END OF CARD ONE -------------------------------->  
+   
+     <!-------------------CARD TWO -------------------------------->  
+     <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 "></div><!--SPACER-->
+     
+     
+     <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 ">
+        <button type="button" class="btn btn-primary btn-block btn-lg btn-top">Refer someone</button>
+         <div class="card card-job">
+             <div class="similar-job">
+                 <h3 class="bid">Similar jobs</h3>
+                 <ul>
+                  <li>Design cover <br>(&#8377; 4500 - 8000 INR )</li>
+                  <li>Cover style design <br>(&#8377; 500 - 800 INR )</li>
+                  <li>Design of book themes<br>(&#8377; 1500 - 1800 INR )</li>
+                  <li>Kindle Business Ebook Writer<br>(&#8377; 1800 - 4800 INR )</li>
+                  <li>Page style design <br>(&#8377; 800 - 4000 INR )</li>
+                   <li>Content writing <br>(&#8377; 4500 - 8000 INR )</li>
+                  <li>Story check <br>(&#8377; 500 - 800 INR )</li>
+                </ul>
+            </div> 
+         </div>
+     </div>
+     
+</div> 
+
+     
+ 
+     
+   <!-------------------CARD THREE [BIDERS] -------------------------------->    
+    <div class="row">
+        <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 card space">
+            <h3 class="bid">3 freelancers are biding for this job</h3>
+            <hr>
+
+            <div class="pad" >
+                 <h3 class="bid">DesignGuru</h3>
+                <div class="profile">
+                    <img  src="myAssets/images/profile.png" alt="profile-pic" class="image">
+                    <div class="content"><p >Hi,Expert in adobe in design and kindle.I can set all format and create table for your book.</p>
+                     <p > Just give me one chance to work with you.
+                        <br>Thanks
+
+                    </div>
+                    <div class="content2"><h3 class="bid">&#8377; 1000 in 1 day </h3>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="pad" >
+                <h3 class="bid">DesignGuru</h3>
+            <div class="profile">
+                <img  src="myAssets/images/profile.png" alt="profile-pic" class="image">
+
+
+                <div class="content">
+                    <p >Hi,Expert in adobe in design and kindle.I can set all format and create table for your book.</p>
+                        <p > Just give me one chance to work with you.
+                        <br>Thanks
+
+                </div>
+                <div class="content2"><h3 class="bid">&#8377; 1000 in 1 day </h3>
+                </div>
+            </div>
+            </div>
+
+
+            <div class="pad" >
+                <h3 class="bid">DesignGuru</h3>
+                <div class="profile">
+                    <img  src="myAssets/images/profile.png" alt="profile-pic" class="image">
+
+
+                    <div class="content"><p >Hi,Expert in adobe in design and kindle.I can set all format and create table for your book.</p>
+                            <p > Just give me one chance to work with you.
+                            <br>Thanks
+                    </div>
+                    <div class="content2"><h3 class="bid">&#8377; 1000 in 1 day </h3>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        
+<!-------------------END OFCARD THREE -------------------------------->  
+</div>
+
+      
+</div>  
+     <script type="text/javascript" src="myAssets/all_js/tolltip.js"></script>
+     
+</body>
+
+</html>

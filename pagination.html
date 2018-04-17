@@ -1,0 +1,429 @@
+<html>
+<head>
+
+
+
+  <title>Job-ortal/job-listing</title>
+
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-------- DEFAULTS ------->
+    
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+    
+  
+    
+   <!-- favicon -->
+  <link rel="shortcut icon" type="image/png" href="myAssets/images/logo.png"/>
+  
+  <link href='https://fonts.googleapis.com/css?family=Cabin Sketch' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Andika' rel='stylesheet'>
+    
+      <!-- my style sheet-->
+   <link href="myAssets/all_css/pagination.css" rel='stylesheet'>
+
+    
+</head>  
+
+<body>
+ <div class="container end">
+    
+   <!--------------- NAVBAR ------------------------> 
+    <div class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="400">
+          <div class="container nav-clr ">
+              
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                   </button>
+                    <a class="navbar-brand" href="#"></a>
+                </div>
+              
+                <div class="navbar-collapse collapse" id="myNavbar">
+                  <ul class="nav navbar-nav ">
+                    <li><a href="dashboard.html" class="cls">Hire Freelancer</a></li>
+                    <li><a href="pagination.html" class="cls">Find Work</a></li>
+                    <li><a href="#" class="cls">How It Works</a></li>
+                  </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="javascript:void(0)" data-toggle="modal" data-target="#signup" class="cls"><b>Signup</b></a></li>
+                    <li><a href="javascript:void(0)" data-toggle="modal" data-target="#login" class="cls">Login</a></li>
+                </ul>
+                </div> 
+              
+          </div>
+    </div>
+     <!--------------- NAVBAR END------------------------>  
+    
+    
+    
+    
+    
+    
+    
+   
+
+    
+     <!--------------- SIGN UP MODAL ------------------------> 
+    
+    
+     <div class="modal fade" id="signup" role="dialog">
+        <div class="modal-dialog">
+              <div class="modal-content">
+
+                    <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h3 class="text-primary modl">Signup for free today</h3>
+                    </div>
+
+                    <div class="modal-body modl-body">
+                        <div class="row">	
+                            <form  method="post" action="" role="form" class="form-horizontal">	
+
+                            <div class="form-group">
+                                <label class="control-label col-md-3">Email adress :</label>
+                                <div class="col-md-8">
+                                    <input type="email " class="form-control" name="email" value="" placeholder="Please Enter Your Email" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-md-3">Username :</label>
+                                <div class="col-md-8">
+                                    <input type="text " class="form-control" name="name" value="" placeholder="Please Enter Your Name" required>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label class="control-label col-md-3">Password :</label>
+                                <div class="col-md-8">
+                                    <input type="password " class="form-control" name="password" value="" placeholder="Please Enter Your Password" required>
+                                </div>
+                            </div>	
+
+
+
+
+                            <div class="form-group">
+
+                            </div>	
+                            <div class="form-group">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-9">
+
+                                    <button onclick="window.location='sign_up.html'" type="button" class="btn btn-primary btn-md">
+                                    Signup to Hire
+                                    </button>   
+
+                                    <button type="button" onclick="window.location='dashboard.html'" class="btn btn-primary btn-md">
+                                    Signup to Work
+                                    </button>  
+
+
+                                    <input type="reset" name="Reset" value="Reset" class="btn btn-default"> 
+                                </div>	
+                            </div>	
+                            </form>					
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+              </div>      
+        </div>
+</div>
+
+    <!--------------- END OF SIGN UP MODAL ------------------------> 
+    
+    
+    
+    <!--------------- LOGIN MODAL ------------------------> 
+    
+       <div class="modal fade" id="login" role="dialog">
+            <div class="modal-dialog">
+                  <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h3 class="text-primary">Login Form</h3>
+                        </div>
+                    <div class="modal-body">
+                        <div class="row">	
+                                <form  method="post" action="" role="form" class="form-horizontal">		
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3">Email address *:</label>
+                                        <div class="col-md-8">
+                                            <input type="email" class="form-control" name="email" value="" placeholder="Please Enter Your Email" required>
+                                        </div>
+                                    </div>	
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3">Password *:</label>
+                                        <div class="col-md-8">
+                                            <input type="password" class="form-control" name="password" value="" placeholder="Please Enter Your password" required>
+                                        </div>
+                                    </div>	
+                                    <div class="form-group">
+                                        <div class="col-md-3"></div>
+                                        <div class="col-md-9">
+                                            <button onclick="window.location='pagination.html'" type="button" class="btn btn-primary btn-md">Login Now</button>  
+
+
+                                            <input type="reset" name="Reset" value="Reset" class="btn btn-default"> 
+                                        </div>	
+                                    </div>	
+                                </form>					
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>      
+            </div>
+  </div>
+    
+    <!--------------- END OF LOGIN MODAL ------------------------> 
+    
+         
+      <!--------------- INPUT BAR------------------------> 
+  
+     <div class="row top-bar">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <div class="input-group shdw">
+                  <span class="input-group-addon mark">
+                    <input type="checkbox">
+                  </span>
+
+                    <span class="input-group-addon box">
+                        <span class="glyphicon glyphicon-search icon"></span>
+                    </span>
+
+                    <input  class="form-control input-md" type="text" class="form-control" placeholder="Search Keyword" >
+                </div>
+          </div>
+
+
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <div class="input-group shdw">
+                  <span class="input-group-addon mark" >
+                        <input type="radio" >
+                  </span>
+
+                     <span class="input-group-addon box" >
+                        <span class="glyphicon glyphicon-map-marker icon" ></span>
+                     </span>
+
+                  <input type="text" class="form-control input-md" aria-label="Text input with radio button" placeholder="Location">
+                </div>
+          </div>
+    </div> 
+
+      <!--------------- END OF INPUT BAR ------------------------> 
+     
+     
+    <div class="row pad ">
+       <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 card">
+           <h1 class="name"> Allan Cloe </h1> <!--NAME-->
+           <hr>
+
+           <h3>Filter By</h3>
+           <h4>Budget</h4> <!--SECTION-->
+
+           <div class="checkbox category">
+                <label><input type="checkbox"  class="check " value="">Fixed price projects</label>
+            </div>
+
+            <input class="form-control size" id="ex1" type="text" placeholder="min">
+                 <span class="to-space">to</span> 
+            <input class="form-control size" id="ex3" type="text" placeholder="max">
+
+            <div class="checkbox category">
+                <label><input type="checkbox"  class="check" value="">Hourly projects</label>
+            </div>
+          
+           <input class="form-control size" id="ex1" type="text" placeholder="min">
+                 <span class="to-space">to</span> 
+            <input class="form-control size" id="ex3" type="text" placeholder="max">
+
+           <select id="inputState " class="form-control size2">
+
+            <option selected>All Durations</option>
+            <option>Less than 1 week </option>
+            <option>1 week to 4 weeks </option>
+            <option>1month to 4 months </option>
+            <option>more than 4 months </option>
+          </select>
+
+
+
+            <div class="checkbox category">
+                <label><input type="checkbox"  class="check" value="">Contests</label>
+            </div>
+
+            <input class="form-control size" id="ex1" type="text" placeholder="min">
+                 <span class="to-space">to</span> 
+            <input class="form-control size" id="ex3" type="text" placeholder="max">
+
+           <hr>
+
+           <h4>Skill</h4><!--SECTION-->
+
+           <div class="checkbox category">
+                <label><input type="checkbox"  class="check" value="">SAS</label>
+            </div>
+
+           <div class="checkbox category">
+                <label><input type="checkbox"  class="check" value="">.NET</label>
+            </div>
+
+           <div class="checkbox category">
+                <label><input type="checkbox"  class="check" value="">PHP</label>
+            </div>
+
+           <div class="checkbox category">
+                <label><input type="checkbox"  class="check" value="">HTML</label>
+            </div>
+
+           <div class="checkbox category">
+                <label><input type="checkbox"  class="check" value="">Javascript</label>
+            </div>
+           <hr>
+
+           
+           
+           <h4>Languages</h4><!--SECTION-->
+
+            <div class="checkbox category">
+                <label><input type="checkbox"  class="check" value="">English</label>
+            </div>
+
+           <div class="checkbox category">
+                <label><input type="checkbox"  class="check" value="">French</label>
+            </div>
+
+           <div class="checkbox category">
+                <label><input type="checkbox"  class="check" value="">Hindi</label>
+            </div>
+           <hr>
+
+       </div> 
+
+      <!--END OF LEFT BAR --------------------------------------------------------->
+        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12"></div><!--SPACER-->
+
+
+        
+        
+        <!--JOB LISTINGS--------------------------------------------------------->
+        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 card">
+             <ul class="pagination pagination-sm page">
+                <li><a href="#">1</a></li>
+                <li class="active"><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+            </ul>   
+            <hr>
+            <ul id="newStuff" class="nav nav-tabs nav-stacked">
+
+
+            <div class="list-job">
+                <div class="middle" >
+                    <button type="button" onclick="window.location='bid.html'" class="btn btn-primary">Bid Now</button>
+                </div>
+                <div class="trans">       
+                    <a href="/" class="tag-space">Fuzzy Matching on Company Names </a><span class="days">6 days left</span>
+                        <div class="sub-content">Hi, I want to join two data sets together by company name that comes in all sorts of different formats. I would like to do this by using SAS language or by writing a python script that uses a variety of python libraries until we get a high match rate.</div>
+                        <div class="tags">
+                            <span class="tag-space"> Machine Leraning</span><span class="tag-space">Natural Language</span><span class="tag-space">SAS</span>
+                        </div>
+
+                </div> 
+            </div>
+
+           <div class="list-job">
+                <div class="middle" >
+                    <button type="button" onclick="window.location='bid.html'" class="btn btn-primary">Bid Now</button>
+                </div>
+               <div class="trans">  
+                    <a href="/" class="tag-space">Responsive in mobile browser (ios and android) </a><span class="days">6 days left</span>
+                    <div class="sub-content">I have a website [url removed, login to view] , i want it to work on mobile it works but it doesnt fits the screens of mobile. i want someone to repair it in such way it must be responsive in any mobile mobile screen (IOS OR ANDROID ).</div>
+                    <div class="tags">
+                        <span class="tag-space"> Android</span><span class="tag-space">CSS</span><span class="tag-space">HTML</span><span class="tag-space">HTML5</span><span class="tag-space">Mobile App</span>
+                    </div>
+               </div>
+            </div>
+
+
+
+           <div class="list-job">
+                <div class="middle" >
+                    <button type="button" onclick="window.location='bid.html'" class="btn btn-primary">Bid Now</button>
+                </div> 
+               <div class="trans">  
+                    <a href="/" class="tag-space">Kindle Publishing Expert</a>  <span class="days">6 days left</span>
+                    <div class="sub-content">I have a small info report that I'd like to publish with Amazon Kindle and will need help with formatting, as well as table of contents, and the cover page. Will need someone very experienced with Kindle to assist.Read to earn</div>
+                    <div class="tags">
+                    <span class="tag-space">Amazon Kindle</span><span class="tag-space">eBooks</span><span class="tag-space">SAS</span>
+                    </div>
+
+    </div>
+        </div>
+
+
+        <div class="list-job">
+            <div class="middle" >
+                <button type="button" onclick="window.location='bid.html'" class="btn btn-primary">Bid Now</button>
+            </div> 
+            <div class="trans">  
+            <a href="/" class="tag-space">Fuzzy Matching on Company Names </a><span class="days">6 days left</span>
+            <div class="sub-content">Hi, I want to join two data sets together by company name that comes in all sorts of different formats. I would like to do this by using SAS language or by writing a python script that uses a variety of python libraries until we get a high match rate.</div>
+
+            <div class="tags">
+            <span class="tag-space"> Machine Leraning</span><span class="tag-space">Natural Language</span><span class="tag-space">SAS</span>
+            </div>
+            </div>
+
+        </div>
+
+
+        <div class="list-job">
+            <div class="middle" >
+                <button type="button" onclick="window.location='bid.html'" class="btn btn-primary">Bid Now</button>
+            </div> 
+            <div class="trans">  
+                <a href="/" class="tag-space">High Quality Developer</a><span class="days">6 days left</span>
+                <div class="sub-content">I need a master coder and developer to code custom code to make unique functions . In your bid tell me what wire frames you are most experienced in. Give me 3 examples of your best work, Don't lie. Time wasters and liars will never get paid.</div>
+
+                <div class="tags">
+                    <span class="tag-space"> Software Architecture</span><span class="tag-space clr"> Software Development</span><span class="tag-space">HTML/CSS</span>
+                </div>
+            </div>
+
+        </div>
+
+
+            </ul>
+
+<!--END OF JOB LISTING BAR --------------------------------------------------------->
+
+    </div>
+    </div>
+         
+
+    </div>   
+</body>
+
+</html>

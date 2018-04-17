@@ -1,0 +1,147 @@
+body {
+   font-family: 'Andika';
+  background:white;
+    background-image: url('../images/bg6.jpg');
+    background-size: cover;
+  
+}
+.grids{
+  
+    height:70vh;
+}
+    
+.card{
+
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+.logo{
+    
+    height: 40px;
+
+}
+        
+.top{
+    margin-top: 100px;
+}
+
+
+
+section{
+    height: 70vh;
+    
+}
+
+.pbar{
+    margin-top: 20px;
+    
+    
+}
+
+.title{
+    font-family: 'Cabin Sketch';
+}
+
+.hgt{
+    
+    height: 70vh;
+    
+    //background-color: beige;
+}
+
+.ts{
+    background-color: white;
+}
+
+.lists{
+    text-align: justify;
+    font-size: 18px;
+}
+.navbar-default .navbar-nav .cls {
+color: #D9B310;
+    font-size: 16px;
+}
+       
+.navbar-default {
+background-color: #0b3c5d;
+border-color: #D9B310;
+
+}
+       .navbar-default .navbar-nav .cls:hover {
+    color: white;
+           font-size: 16px;
+}
+
+
+       .navbar-default .navbar-nav .cls:active {
+    color: white;
+           font-size: 16px;
+}
+.frm{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.clsl{
+    background-color: beige;
+}
+.clsb{
+    background-color: #0b3c5d;
+    color: #D9B310;
+}
+li{
+margin: 10px 0;
+}
+        
+.pad-up{
+    font-size: 24px;
+    
+    font-family: 'Cabin Sketch';
+    color: #0b3c5d;
+}
+
+.pad-down{
+    margin-bottom: 40px;
+}
+
+.bottom2{
+    height: 40px;
+    
+}
+
+
+.pad{
+    float: right;
+    margin-top: 40px;
+}
+
+
+ .area{
+    height: 70vh;
+
+}
+
+.sizer{
+    width: 100%;
+}
+
+.input-size{
+    width: 46%;
+    display:inline-block;
+}
+
+.select-size{
+    width:92%;
+}
+
+.ttl{
+    font-family: 'Cabin Sketch';
+
+}
+
+.ttl2{
+     margin-bottom: -10px;
+}
+.sub-con{
+    margin-top: 10vh;
+}
